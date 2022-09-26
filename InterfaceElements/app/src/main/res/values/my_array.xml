@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_array">
+        <item>I was born in the year 1632,</item>
+        <item>in the city of York,</item>
+        <item>of a good family,</item>
+        <item>though not of that country,</item>
+        <item>my father being a foreigner of Bremen,</item>
+        <item>who settled first at Hull.</item>
+        <item>He got a good estate by merchandise,</item>
+        <item>and leaving off his trade,</item>
+        <item>lived afterwards at York,</item>
+        <item>from whence he had married my mother,</item>
+        <item>whose relations were named Robinson,</item>
+        <item>a very good family in that country,</item>
+        <item>and from whom I was called Robinson Kreutznaer;</item>
+        <item>but,</item>
+        <item>by the usual corruption of words in England,</item>
+        <item>we are now called—nay we call ourselves and write our name—Crusoe;</item>
+        <item>and so my companions always called me.</item>
+        <item>I had two elder brothers,</item>
+        <item>one of whom was lieutenant-colonel to an English regiment of foot in Flanders,</item>
+        <item>formerly commanded by the famous Colonel Lockhart,</item>
+        <item>and was killed at the battle near Dunkirk against the Spaniards.</item>
+        <item>What became of my second brother I never knew,</item>
+        <item>any more than my father or mother knew what became of me.</item>
+        <item>Being the third son of the family and not bred to any trade,</item>
+        <item>my head began to be filled very early with rambling thoughts.</item>
+        <item>My father,</item>
+        <item>who was very ancient,</item>
+        <item>had given me a competent share of learning,</item>
+        <item>as far as house-education and a country free school generally go,</item>
+        <item>and designed me for the law;</item>
+        <item>but I would be satisfied with nothing but going to sea;</item>
+        <item>and my inclination to this led me so strongly against the will,</item>
+        <item>nay,</item>
+        <item>the commands of my father,</item>
+        <item>and against all the entreaties and persuasions of my mother and other friends,</item>
+        <item>that there seemed to be something fatal in that propensity of nature,</item>
+        <item>tending directly to the life of misery which was to befall me.</item>
+    </string-array>
+</resources>

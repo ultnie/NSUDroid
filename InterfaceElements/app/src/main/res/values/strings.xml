@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InterfaceElements</string>
+    <string name="PressMe">Press me!</string>
+    <string name="TextView">Text view!</string>
+    <string name="button">Button</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="toggle">Toggle</string>
+</resources>
