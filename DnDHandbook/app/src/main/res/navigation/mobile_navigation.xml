@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_spells">
+
+    <fragment
+        android:id="@+id/navigation_spells"
+        android:name="com.example.dndhandbook.fragments.SpellsFragment"
+        android:label="@string/spells"
+        tools:layout="@layout/fragment_spells" />
+
+    <fragment
+        android:id="@+id/navigation_monsters"
+        android:name="com.example.dndhandbook.fragments.MonstersFragment"
+        android:label="@string/monsters"
+        tools:layout="@layout/fragment_monsters" />
+
+    <fragment
+        android:id="@+id/navigation_magic_items"
+        android:name="com.example.dndhandbook.fragments.MagicItemsFragment"
+        android:label="@string/magic_items"
+        tools:layout="@layout/fragment_magic_items" />
+
+    <fragment
+        android:id="@+id/navigation_result"
+        android:name="com.example.dndhandbook.fragments.ResultFragment"
+        android:label="@string/result"
+        tools:layout="@layout/fragment_result"
+        />
+
+</navigation>
