@@ -16,10 +16,10 @@ class SpellResultResponse (
     val area_of_effect: AreaOfEffect?,
     val damage: SpellDamage?,
     val dc: DC?
-) {
+): java.io.Serializable {
 
-    class School(val name: String)
-    class Class(val name: String)
+    class School(val name: String): java.io.Serializable
+    class Class(val name: String): java.io.Serializable
 }
 
 class MonsterResultResponse(
@@ -52,7 +52,7 @@ class MonsterResultResponse(
     val speed: DnDSpeed?,
     val xp: Int,
     val image: String?
-) {
+): java.io.Serializable {
 
     class DnDAction(
         val name: String,
@@ -60,15 +60,15 @@ class MonsterResultResponse(
         val attack_bonus: Int?,
         val dc: DC?,
         val damage: List<Damage>?
-    )
+    ): java.io.Serializable
 
-    class DnDCondition(val name: String)
+    class DnDCondition(val name: String): java.io.Serializable
     class DnDProficiency(
         val value: Int,
         val proficiency: DnDSubproficiency
-    ) {
+    ): java.io.Serializable {
 
-        class DnDSubproficiency(val name: String)
+        class DnDSubproficiency(val name: String): java.io.Serializable
     }
 
     class DnDSenses(
@@ -77,7 +77,7 @@ class MonsterResultResponse(
         val darkvision: String?,
         val tremorsense: String?,
         val truesight: String?
-    )
+    ): java.io.Serializable
 
     class DnDSpecialAbilities(
         val name: String,
@@ -87,7 +87,7 @@ class MonsterResultResponse(
         val dc: DC?,
         val spellcasting: DnDSpellcasting?,
         val usage: DnDUsage?
-    ) {
+    ): java.io.Serializable {
 
         class DnDSpellcasting(
             val ability: DnDAbility?,
@@ -96,13 +96,13 @@ class MonsterResultResponse(
             val components_required: List<String>?,
             val school: String?,
             val slots: Map<String, Int>?,
-        )
+        ): java.io.Serializable
 
         class DnDUsage(
             val type: String?,
             val rest_types: List<String>?,
             val times: Int?
-        )
+        ): java.io.Serializable
     }
 
     class DnDSpeed(
@@ -111,7 +111,7 @@ class MonsterResultResponse(
         val climb: String?,
         val fly: String?,
         val swim: String?
-    )
+    ): java.io.Serializable
 }
 
 class MIResultResponse(
@@ -119,9 +119,9 @@ class MIResultResponse(
     val desc: List<String>?,
     val equipment_category: DnDEquipmentCategory?,
     val rarity: DnDRarity?
-    ) {
-    class DnDRarity (val name: String)
+    ): java.io.Serializable {
+    class DnDRarity (val name: String): java.io.Serializable
 }
 
-class DnDAbility(val name: String)
-class DnDEquipmentCategory (val name: String)
+class DnDAbility(val name: String): java.io.Serializable
+class DnDEquipmentCategory (val name: String): java.io.Serializable
