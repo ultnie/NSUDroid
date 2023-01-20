@@ -62,10 +62,12 @@ class SpellsFragment : Fragment() {
                 return true
             }
 
-            override fun onQueryTextChange(newText: String?): Boolean {
+            override fun onQueryTextChange(newText: String): Boolean {
                 handler.removeCallbacks(runner)
-                searchText = newText ?: ""
-                handler.postDelayed(runner, 250)
+                if (newText != "") {
+                    searchText = newText
+                    handler.postDelayed(runner, 250)
+                }
                 return true
             }
         })
