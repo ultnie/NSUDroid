@@ -59,6 +59,7 @@ class MonstersFragment : Fragment() {
 
         searchView?.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?) : Boolean{
+                searchView.clearFocus()
                 return true
             }
 
